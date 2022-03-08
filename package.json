@@ -1,12 +1,13 @@
 {
   "name": "swebpack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "small webpack",
   "main": "bundle.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
+    "init": "mkdir dist",
     "build": "node bundle.js"
   },
   "repository": {
@@ -20,9 +21,10 @@
   },
   "homepage": "https://github.com/moiamoia/swebpack#readme",
   "devDependencies": {
-    "@babel/core": "7.12.3",
-    "@babel/preset-env": "7.12.1",
-    "@babel/parser": "^7.12.3",
-    "@babel/traverse": "7.12.1"
+    "@babel/core": "7.17.5",
+    "@babel/parser": "^7.17.3",
+    "@babel/preset-env": "7.16.11",
+    "@babel/traverse": "7.17.3",
+    "prettier": "^2.5.1"
   }
 }
